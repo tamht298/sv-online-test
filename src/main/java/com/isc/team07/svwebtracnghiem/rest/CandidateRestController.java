@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://iscontest.firebaseapp.com")
 public class CandidateRestController {
 
     private CandidateService candidateService;
