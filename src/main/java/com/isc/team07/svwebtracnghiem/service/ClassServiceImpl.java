@@ -47,7 +47,7 @@ public class ClassServiceImpl implements ClassService{
     @Override
     public void deleteById(int theId) {
         classRepository.deleteById(theId);
-    }
+    }	
 
     @Override
     public boolean existsById(Integer theId) {

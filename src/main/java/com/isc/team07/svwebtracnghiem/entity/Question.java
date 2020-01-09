@@ -32,6 +32,7 @@ public class Question {
             fetch = FetchType.EAGER,
             cascade = CascadeType.ALL
     )
+    
     @JoinColumn(name = "question_id")
     private List<QuestionAnswers> questionAnswersList;
 
