@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://iscontest.firebaseapp.com")
 public class CandidateRestController {
 
     private CandidateService candidateService;
